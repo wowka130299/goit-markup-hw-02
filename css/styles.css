@@ -18,8 +18,7 @@ font-family: Raleway;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px;
-letter-spacing: 0.54px;
+line-height: 1.17;
 text-transform: uppercase;
 
 }
@@ -51,10 +50,10 @@ text-transform: uppercase;
 .studio:hover,
 .portfolio:hover,
 .contacs:hover,
-.studio:focus
+.studio:focus,
 .portfolio:focus,
 .contacs:focus{
-    color: #404BBF;
+    color: #404bbf;
 
 /* Body Medium */
 font-size: 16px;
@@ -118,10 +117,11 @@ letter-spacing: 1.12px;
 }
 
 .butt{
+
     color:  #FFF;
 
 /* Button Text */
-font-family: Roboto;
+font-family: "Roboto", sans-serif ;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -142,7 +142,7 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
 border-radius: 4px;
-background: var(--OCEAN, #404BBF);
+background-color: #404BBF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -183,23 +183,22 @@ letter-spacing: 0.32px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
+    line-height: 1.11;
     letter-spacing: 0.72px;
-    text-transform: 0.4px;
+     text-transform: capitalize;
 }
 
 
 .team-menber-name{
-    color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
+    color: #2E2F42;
 
 /* Header 3 */
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
 }
 
 .team-kard{
