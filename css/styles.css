@@ -63,8 +63,7 @@ letter-spacing: 0.32px;
     font-style: normal;
 }
 
-.contact-list .mail,
-.contact-list .tel{
+.contact-list .info{
     color: #434455;
 
     /* Body */
@@ -75,10 +74,8 @@ letter-spacing: 0.32px;
     letter-spacing: 0.32px;
 }
 
-.contact-list .mail:hover,
-.contact-list .tel:hover,
-.contact-list .mail:focus,
-.contact-list .tel:focus{
+.contact-list .info:hover,
+.contact-list .info:focus{
     color: #404BBF;
 
 /* Body */
@@ -264,4 +261,17 @@ line-height: 24px; /* 150% */
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em
+}
+
+.info-in-footer{
+    color: var(--CLOUD, #F4F4FD);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    letter-spacing: 0.02em;
+
 }
