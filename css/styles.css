@@ -242,7 +242,7 @@ letter-spacing: 0.32px;
     text-transform: uppercase;
 }
 
-footer{
+.footer-name{
     background: var(--NAVY-BLUE, #2E2F42);
     color: var(--CLOUD, #F4F4FD);
 
