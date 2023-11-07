@@ -63,7 +63,7 @@ letter-spacing: 0.32px;
     font-style: normal;
 }
 
-.contact-list .info{
+.ad-info .info{
     color: #434455;
 
     /* Body */
@@ -74,8 +74,8 @@ letter-spacing: 0.32px;
     letter-spacing: 0.32px;
 }
 
-.contact-list .info:hover,
-.contact-list .info:focus{
+.ad-info .info:hover,
+.ad-info .info:focus{
     color: #404BBF;
 
 /* Body */
