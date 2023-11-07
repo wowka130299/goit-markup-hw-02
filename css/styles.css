@@ -115,9 +115,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background:  #4D5AE5;
 }
 
 .butt:hover,
@@ -130,9 +128,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-border-radius: 4px;
 background-color: #404BBF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor:pointer;
 }
 
@@ -223,17 +219,17 @@ letter-spacing: 0.32px;
 }
 
 .name-p{
-    color: var #2E2F42;
+    color:  #2E2F42;
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2; /* 120% */
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 }
 
 .text-under-name-portfolio{
-    color: var(--SLATE, #434455);
+    color:  #434455;
 
 /* Body */
 font-family: Roboto;
@@ -246,12 +242,12 @@ letter-spacing: 0.32px;
 
 .logo-second-element-down{
     color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
