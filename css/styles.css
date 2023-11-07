@@ -14,23 +14,24 @@ ul{
 
 .logo-first-element{
     color:  #4D5AE5;
-font-family: "Raleway", sans-srif;
+font-family: 'Raleway', sans-srif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 
 }
 
 .logo-second-element{
     color: #2E2F42;
-font-family: "Raleway", sans-srif;
+font-family: 'Raleway', sans-srif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17px;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
@@ -59,7 +60,7 @@ letter-spacing: 0.32px;
 
 
 .address{
-    font-style:normal;
+    font-style: normal;
 }
 
 .contact-list .mail,
