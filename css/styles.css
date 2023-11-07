@@ -34,9 +34,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
-.studio,
-.portfolio,
-.contacs{
+.link-nav{
     color:  #2E2F42;
 
     /* Body Medium */
@@ -99,6 +97,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px;
+text-align: center;
 }
 
 .section-one{
