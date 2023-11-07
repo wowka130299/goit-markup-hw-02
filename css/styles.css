@@ -222,8 +222,8 @@ letter-spacing: 0.32px;
     text-transform: capitalize; 
 }
 
-.name-portfolio{
-    color: var(--NAVY-BLUE, #2E2F42);
+.name-p{
+    color: var #2E2F42;
 
 /* Header 3 */
 font-family: Roboto;
