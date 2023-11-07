@@ -218,15 +218,6 @@ letter-spacing: 0.32px;
     text-transform: capitalize; 
 }
 
-.name-p{
-    color:  #2E2F42;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.2; /* 120% */
-letter-spacing: 0.02em;
-}
 
 .text-under-name-portfolio{
     color:  #434455;
