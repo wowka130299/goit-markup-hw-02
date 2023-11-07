@@ -14,7 +14,7 @@ ul{
 
 .logo-first-element{
     color:  #4D5AE5;
-font-family: Raleway;
+font-family: "Raleway", sans-srif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -25,11 +25,11 @@ text-transform: uppercase;
 
 .logo-second-element{
     color: #2E2F42;
-font-family: Raleway;
+font-family: "Raleway", sans-srif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
+line-height: 1.17px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -75,6 +75,10 @@ letter-spacing: 0.32px;
 text-decoration:underline;
 }
 
+.address{
+    font-style:normal:
+}
+
 .contact-list .mail,
 .contact-list .tel{
     color: #434455;
@@ -108,7 +112,7 @@ font-family: Roboto;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px; /* 107.143% */
+line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px;
 }
 
@@ -132,7 +136,8 @@ background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.butt:hover{
+.butt:hover,
+.butt:focus{
     color: #FFF;
 
 /* Button Text */
@@ -144,6 +149,7 @@ letter-spacing: 0.64px;
 border-radius: 4px;
 background-color: #404BBF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+cursor:pointer;
 }
 
 .title-section-two{
